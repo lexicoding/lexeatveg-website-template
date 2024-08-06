@@ -3,6 +3,8 @@ body {
   /* background: #f9aa35; */
   background-color: white;
   /* color: #fff; */
+  background: url('Template Restaurant/assets/background.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the background covers the entire page */
 }
 
 a {
@@ -112,6 +114,7 @@ h6 {
   z-index: 997;
   padding: 15px 0;
   top: 40px;
+  width: 100%;
 }
 
 #header.header-scrolled {
@@ -136,7 +139,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
+  height: auto;
 }
 
 /*--------------------------------------------------------------
@@ -173,10 +177,27 @@ h6 {
 /**
 * Desktop Navigation 
 */
-.navbar {
-  padding: 0;
+
+.navbar, .navbar-nav .nav-link, .navbar-brand {
+  font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {
+  padding: 0;
+  width: 100%;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 1rem; /* Adjust as needed for spacing */
+  margin-right: 1rem; /* Adjust as needed for spacing */
+}
+.navbar-brand {
+  margin-right: 1rem; /* Adjust as needed */
+}
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -329,7 +350,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("") top center;
+  background: url("Template Restaurant/assets/background.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 10;

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lexeatveg</title>
+    <!-- Favicon -->
+    <link href="Template Restaurant/assets/lexeatveg-logo.png" rel="icon" type="image/png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="Template Restaurant/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Template Restaurant/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link href="Template Restaurant/assets/css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<script> 
+    function showAlert(message) { 
+      alert(message); 
+    }
+</script>  
+<body style="background: url('Template Restaurant/assets/background.jpg') no-repeat center center fixed; background-size: cover;">
+    <!-- Header -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <a href="#" class="logo me-auto me-lg-0">
+            <img src="Template Restaurant/assets/lexeatveg-logo.png" alt="Logo">
+        </a>
+                <!-- Navigation Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">@lexeatveg</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#book-a-table">Reservation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        </ul>
+                        <a href="#book-a-table" class="btn-menu animated fadeInUp scrollto"><center>Book a Table</center></a>
+                    </div>
+                </nav>        
+            </header>      
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Welcome to <span>@lexeatveg</span></h1>
+                    <h2>Made a big move to France to explore my husband’s culture, learn his language and create our own Indo-French cuisine recettes!</h2>
+                    <div class="btns">
+                        <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
+                        <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr> 
+<!-- Row with One Column -->
+<div class="row gy-4 bg-light">
+    <div class="col-12 d-flex flex-column align-items-center justify-content-center text-center py-5">
+        <h2 class="display-4">Our Mission</h2>
+        <p class="lead">Plan, experiment, and share the story!</p>
+    </div>
+</div>
+<style>
+    .bg-white {
+        background-color: white;
+    }
+    .bg-green {
+        background-color: #cda45e;
+        color: rgb(0, 0, 0); /* Ensure text is readable on a green background */
+    }
+</style>
+<section id="about" class="about">
+    <div class="container py-5" data-aos="fade-up">
+        <!-- Row 1: About Us -->
+        <div class="row gy-4 bg-white">
+            <div class="col-lg-6 position-relative about-img" style="background-image: url('Template Restaurant/assets/about.webp');" data-aos="fade-up" data-aos-delay="150">
+                <div class="call-us position-absolute">
+                    <h2>About Us</h2>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="300" style="color: #000;">
+                <div class="content ps-0 ps-lg-5">
+                    <p style="font-size: 18px; padding: 10px;">
+                        We explore organic vegetables that are affordable, seasonal, and as fresh and local as possible.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Row 2: Our History -->
+        <div class="row gy-4 bg-green">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="300">
+                <div class="content ps-0 ps-lg-5">
+                    <p style="font-size: 18px; padding: 10px; color: #000;">
+                        We learn to cook traditional recipes and add traditional twists from the other side of the world.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 position-relative about-img" style="background-image: url('Template Restaurant/assets/history.webp');" data-aos="fade-up" data-aos-delay="150">
+                <div class="call-us position-absolute">
+                    <h2>Our History</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 3: New Section -->
+<div class="row gy-4 bg-white">
+    <!-- Column 1: Image with Text Overlay -->
+    <div class="col-lg-4 position-relative about-img" style="background-image: url('Template Restaurant/assets/special.webp');" data-aos="fade-up" data-aos-delay="150">
+        <div class="call-us position-absolute">
+            <h2>Special</h2>
+        </div>
+    </div>
+
+    <!-- Column 2: Text Box Floating Center -->
+    <div class="col-lg-4 d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="300" style="color: #000;">
+        <div class="content text-center">
+            <p style="font-size: 18px; padding: 10px;">
+                We share our daily home cooking experiences with neat little sustainable thoughts to inspire.
+            </p>
+        </div>
+    </div>
+
+    <!-- Column 3: Image with Text Overlay -->
+    <div class="col-lg-4 position-relative about-img" style="background-image: url('Template Restaurant/assets/delicacies.jpg');" data-aos="fade-up" data-aos-delay="450">
+        <div class="call-us position-absolute">
+            <h2>Delicacies</h2>
+        </div>
+    </div>
+</div>
+
+    </div>
+</section>
+
+<section id="menu" class="menu bg-white"> 
+    <div class="container" data-aos="fade-up"> 
+        <div class="section-title"> 
+            <h3>Menu</h3> 
+            <p>Check our tasty <span>Menu</span></p> 
+        </div> 
+    </div> 
+
+    <div class="container mt-5"> 
+        <ul class="nav nav-tabs custom-tabs flex-column flex-sm-row justify-content-center" id="galleryTabs" role="tablist"> 
+            <li class="nav-item"> 
+                <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Show All</a> 
+            </li> 
+            <li class="nav-item"> 
+                <a class="nav-link" id="beverages-tab" data-toggle="tab" href="#beverages" role="tab" aria-controls="beverages" aria-selected="false">Beverages</a> 
+            </li> 
+            <li class="nav-item"> 
+                <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a> 
+            </li> 
+            <li class="nav-item"> 
+                <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false">Dinner</a> 
+            </li> 
+        </ul> 
+    </div> 
+
+    <div class="tab-content mt-3" id="galleryTabContent"> 
+        <!-- Show All Tab -->
+        <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab"> 
+            <div class="row"> 
+                <div class="col-lg-6 menu-item filter-all"> 
+                    <div class="menu-content">
+                        <a href="#">Lemon Juice</a><span>€3.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Summer drink with freshly squeezed lemon, mint and a dash of salt and pepper served in a tall glass 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-all"> 
+                    <div class="menu-content"> 
+                        <a href="#">Indian Thali</a><span>€12.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Assorted vegetables served with cooked rice, 2 dals, rasam broth, papads and 2 traditional sweets 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-all"> 
+                    <div class="menu-content"> 
+                        <a href="#">Hundi Biriyani</a><span>€15.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        One pot rice dish cooked with seasonal vegetables, handful of aromatic spices, served with fresh raita, pakodas and aubergine curry 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-beverages"> 
+                    <div class="menu-content"> 
+                        <a href="#">Fruit Lassi</a><span>€5.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Yoghurt drink with seasonal fruit of your choice, we recommend you try the rose & pistachio. 
+                    </div> 
+                </div>
+                <div class="col-lg-6 menu-item filter-lunch"> 
+                    <div class="menu-content"> 
+                        <a href="#">Coconut Rice & Poli</a><span>€10.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Tempered chillis, peanuts, dals, mustard and curry leaves, with cooked rice and freshly grated coconut served with a sweet dal stuffed Indian bread 
+                    </div> 
+                </div>
+                <div class="col-lg-6 menu-item filter-dinner"> 
+                    <div class="menu-content"> 
+                        <a href="#">Palak Paneer Pasta</a><span>€12.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Didn't see that one coming, did you? Well, it's exceptional, don't hesitate to give it a go! Spicy and tangy Spinach and paneer curry with freshly cooked spaghetti
+                    </div> 
+                </div>
+                <div class="col-lg-6 menu-item filter-beverages"> 
+                    <div class="menu-content"> 
+                        <a href="#">Body Cooler</a><span>€4.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Mocktail with basil seeds and fruit of the week crushed with ice and topped with a scoop of vanille. 
+                    </div> 
+                </div>
+                <div class="col-lg-6 menu-item filter-lunch"> 
+                    <div class="menu-content"> 
+                        <a href="#">Brinjal Curry & Coucous</a><span>€10.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        My mama's signature eggplant curry called 'yennai kathirikkai' served with traditional couscous full of Mediterranean veggies
+                    </div> 
+                </div>
+                <div class="col-lg-6 menu-item filter-dinner"> 
+                    <div class="menu-content"> 
+                        <a href="#">Mushroom Beyond Meat Burger</a><span>€10.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Portebello msuhrooms make for a great meat substitute and couple with the typical Chicken 65 recipe, you'd wonder if this burger's really vegan! 
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+
+        <!-- Beverages Tab -->
+        <div class="tab-pane fade" id="beverages" role="tabpanel" aria-labelledby="beverages-tab"> 
+            <div class="row"> 
+                <div class="col-lg-6 menu-item filter-beverages"> 
+                    <div class="menu-content"> 
+                        <a href="#">Lemon Juice</a><span>€3.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Summer drink with freshly squeezed lemon, mint and a dash of salt and pepper served in a tall glass 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-beverages"> 
+                    <div class="menu-content"> 
+                        <a href="#">Fruit Lassi</a><span>€5.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Yoghurt drink with seasonal fruit of your choice, we recommend you try the rose & pistachio. 
+                    </div> 
+                </div>
+                <div class="col-lg-6 menu-item filter-beverages"> 
+                    <div class="menu-content"> 
+                        <a href="#">Body Cooler</a><span>€4.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Mocktail with basil seeds and fruit of the week crushed with ice and topped with a scoop of vanille. 
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+
+        <!-- Lunch Tab -->
+        <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab"> 
+            <div class="row"> 
+                <div class="col-lg-6 menu-item filter-lunch"> 
+                    <div class="menu-content"> 
+                        <a href="#">Indian Thali</a><span>€12.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Assorted vegetables served with cooked rice, 2 dals, rasam broth, papads and 2 traditional sweets 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-lunch"> 
+                    <div class="menu-content"> 
+                        <a href="#">Coconut Rice & Poli</a><span>€10.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Tempered chillis, peanuts, dals, mustard and curry leaves, with cooked rice and freshly grated coconut served with a sweet dal stuffed Indian bread 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-lunch"> 
+                    <div class="menu-content"> 
+                        <a href="#">Brinjal Curry & Coucous</a><span>€10.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        My mama's signature eggplant curry called 'yennai kathirikkai' served with traditional couscous full of Mediterranean veggies
+                    </div> 
+                </div>
+            </div> 
+        </div> 
+
+        <!-- Dinner Tab -->
+        <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab"> 
+            <div class="row"> 
+                <div class="col-lg-6 menu-item filter-dinner"> 
+                    <div class="menu-content"> 
+                        <a href="#">Hundi Biriyani</a><span>€15.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        One pot rice dish cooked with seasonal vegetables, handful of aromatic spices, served with fresh raita, pakodas and aubergine curry 
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-dinner"> 
+                    <div class="menu-content"> 
+                        <a href="#">Palak Paneer Pasta</a><span>€12.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Didn't see that one coming, did you? Well, it's exceptional, don't hesitate to give it a go! Spicy and tangy Spinach and paneer curry with freshly cooked spaghetti
+                    </div> 
+                </div> 
+                <div class="col-lg-6 menu-item filter-dinner"> 
+                    <div class="menu-content"> 
+                        <a href="#">Mushroom Beyond Meat Burger</a><span>€10.00</span> 
+                    </div> 
+                    <div class="menu-ingredients"> 
+                        Portebello msuhrooms make for a great meat substitute and couple with the typical Chicken 65 recipe, you'd wonder if this burger's really vegan! 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div>
+</section>
+
+<section id="book-a-table" class="book-a-table bg-white"> 
+    <div class="container" data-aos="fade-up"> 
+        <div class="section-title"> 
+            <h3>Reservation</h3> 
+            <p>Book a Table</p> 
+        </div>
+
+        <!-- Form -->
+        <form class="php-email-form" role="form" onsubmit="showAlert('Your reservation request has been sent!'); return false;"> 
+            <div class="row"> 
+                <div class="col-lg-4 col-md-6 form-group"> 
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required> 
+                    <div class="validate"></div> 
+                </div> 
+
+                <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" required> 
+                    <div class="validate"></div> 
+                </div> 
+
+                <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"> 
+                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required> 
+                    <div class="validate"></div> 
+                </div> 
+
+                <div class="col-lg-4 col-md-6 form-group mt-3"> 
+                    <input type="date" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required> 
+                    <div class="validate"></div> 
+                </div> 
+
+                <div class="col-lg-4 col-md-6 form-group mt-3"> 
+                    <input type="time" class="form-control" name="time" id="time" required> 
+                    <small class="form-text text-muted">Please enter the time of your visit.</small> 
+                </div> 
+
+                <div class="col-lg-4 col-md-6 form-group mt-3"> 
+                    <input type="number" class="form-control" name="people" id="people" placeholder="No. of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars" required> 
+                    <div class="validate"></div> 
+                </div> 
+            </div> 
+
+            <div class="form-group mt-3"> 
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea> 
+                <div class="validate"></div> 
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group mt-3"> 
+                <button type="submit" class="btn btn-primary">Send Reservation</button> 
+            </div>
+        </form> 
+    </div> 
+</section> 
+
+<section id="gallery" class="gallery bg-white">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h3>Gallery</h3>
+            <p>Some photos from Our Restaurant</p>
+        </div>
+        <div class="container mt-5">
+            <ul class="nav nav-tabs custom-tabs" id="galleryTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="food-tab" data-toggle="tab" href="#food" role="tab" aria-controls="food" aria-selected="true">Food</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="ambience-tab" data-toggle="tab" href="#ambience" role="tab" aria-controls="ambience" aria-selected="false">Ambience</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content mt-3" id="galleryTabContent">
+            <div class="tab-pane fade show active" id="food" role="tabpanel" aria-labelledby="food-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/food1.jpg" class="img-fluid" alt="Food Image 1">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/food2.jpg" class="img-fluid" alt="Food Image 2">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/food3.jpeg" class="img-fluid" alt="Food Image 3">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/food6.webp" class="img-fluid" alt="Food Image 1">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/food5.jpeg" class="img-fluid" alt="Food Image 2">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/food4.jpg" class="img-fluid" alt="Food Image 3">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="ambience" role="tabpanel" aria-labelledby="ambience-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/location1.jpg" class="img-fluid" alt="Ambience Image 1">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/location2.jpg" class="img-fluid" alt="Ambience Image 2">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/location3.jpg" class="img-fluid" alt="Ambience Image 3">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/location4.jpg" class="img-fluid" alt="Ambience Image 1">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/location5.jpeg" class="img-fluid" alt="Ambience Image 2">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Template Restaurant/assets/location6.jpg" class="img-fluid" alt="Ambience Image 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact bg-light">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h3>Contact</h3>
+            <p>Contact Us</p>
+        </div>
+    </div>
+    <div data-aos="fade-up">
+        <iframe style="border:0; width: 100%; height: 350px;"
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6641.6162694677!2d-117.99591!3d33.662133!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1692763637266!5m2!1sen!2sus"
+          frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="container" data-aos="fade-up">
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="info">
+                    <div class="address bg-white">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <h4>Location:</h4>
+                        <p>5 Rue Victor Hugo, Montpellier, South of France</p>
+                    </div>
+                    <div class="open-hours bg-white">
+                        <i class="bi bi-clock-fill"></i>
+                        <h4>Open Hours:</h4>
+                        <p>
+                            Tuesday - Sunday:<br>
+                            9:00 AM - 11:00 PM
+                        </p>
+                    </div>
+                    <div class="email bg-white">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <h4>Email:</h4>
+                        <p>lexeatveg@gmail.com</p>
+                    </div>
+                    <div class="phone bg-white">
+                        <i class="bi bi-telephone-inbound-fill"></i>
+                        <h4>Phone:</h4>
+                        <p>+33 7 82 19 52 78</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+                <form class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" onclick="showAlert('Thank you for contacting us!')">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+ 
+<footer id="footer"> 
+    <div class="footer-top"> 
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-6 col-md-6"> 
+                    <div class="footer-info"> 
+                      <h2>@lexeatveg</h2> 
+                      <div class="social-links mt-3"> 
+                        <a href="#"> <i class="bi bi-twitter"></i></a> 
+                        <a href="#"><i class="bi bi-facebook"></i></a> 
+                        <a href="#"><i class="bi bi-instagram"></i></a> 
+                        <a href="#"><i class="bi bi-youtube"></i></a> 
+                      </div> 
+                    </div> 
+                </div>
+                
+                <div class="col-lg-6 col-md-6 footer-links"> 
+                    <h5>Useful Links</h5> 
+                    <ul> 
+                      <li> <a href="#hero">Home</a></li> 
+                      <li> <a href="#about">About us</a></li> 
+                      <li> <a href="#contact">Contact</a></li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</footer> 
+
+</body>
+</html>
